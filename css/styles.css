@@ -1,8 +1,40 @@
 
 body {
-  background-color: #e3dcf2;
+background-color: #e3dcf2;
+}
+
+@keyframes size-osc {
+  0%{
+    font-size: 24px;
+  }
+  50%{
+    font-size: 50px;
+  }
+  100%{
+    font-size: 24px;
+  }
 }
 
 h1 {
-  font-family: sans-serif;
+  font-size: 24px;
+  font-family: heavy_dataregular;
+  animation-name: size-osc;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.mail {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.alt {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-123px, -38px);
 }

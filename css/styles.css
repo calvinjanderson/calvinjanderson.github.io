@@ -18,7 +18,7 @@ background-color: #e3dcf2;
 h1 {
   font-size: 24px;
   font-family: heavy_dataregular;
-  animation-name: size-osc;
+  animation-name: ;
   animation-duration: 6s;
   animation-iteration-count: infinite;
 }
@@ -26,13 +26,12 @@ h1 {
 .mail {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   height: 100vh;
 }
 
 .alt {
-  display: none;
   position: fixed;
   top: 50%;
   left: 50%;

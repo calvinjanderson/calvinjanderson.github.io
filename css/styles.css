@@ -19,7 +19,7 @@ video {
 }
 
 .title {
-  position: fixed;
+  position: absolute;
   top: 40%;
   left: 50%;
   height: 100px;
